@@ -1,0 +1,26 @@
+<section class="auth-page">
+
+
+  <div class="auth-left">
+    <form #f="ngForm" class="auth-form">
+
+      <h1>Create Account</h1>
+      <p>Join the museum community today</p>
+
+      <input type="text" name="username" ngModel required placeholder="Username">
+      <input type="email" name="email" ngModel required placeholder="Email">
+      <input type="password" name="password" ngModel required placeholder="Password">
+
+      <button [disabled]="!f.valid">Register</button>
+
+      <p class="switch-link">
+        Already have an account?
+        <a routerLink="/login">Login</a>
+      </p>
+    </form>
+  </div>
+
+
+  <div class="auth-right"></div>
+
+</section>

@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: black;
+  border-bottom: 1px solid #c6a15b;
+}
+
+.logo {
+  color: #c6a15b;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.logo a {
+  color: #c6a15b;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c6a15b;
+}
+.log a{
+  color: #c6a15b;
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+* {
+  font-family: Arial, sans-serif;
+}
+.home {
+  height: auto;
+  padding-top: 90px;
+  background: linear-gradient(to right, #0e0e0e, #1a1a1a);
+  color: white;
+}
+
+
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: #c6a15b;
+  margin-bottom: 10px;
+}
+
+.artist {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+ 
+  width: auto;
+  gap: 50px;
+  padding: 50px;
+  margin: auto;
+}
+
+
+.card {
+  position: relative;
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #222;
+  transition: 0.3s;
+  height: 550px;
+  width: 300px;
+}
+
+
+.image {
+  overflow: hidden;
+}
+
+.image img {
+  border-radius: 10px;
+  padding: 5px;
+  width: 290px;
+  height: 270px;
+  object-fit: fill;
+  transition: 0.4s;
+}
+
+
+.info h3 {
+  text-align: center;
+  color: #c6a15b;
+  font-size: 25px;
+}
+
+
+.info p {
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #c6a15b;
+}
+
